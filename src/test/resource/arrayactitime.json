@@ -1,0 +1,19 @@
+{
+"url":"https://demo.actitime.com/",
+"browser":"chrome",
+"title":"actiTIME - Enter Time-Track",
+"userlogin":[{"un":"admin",
+             "pwd":"manager"},
+              { 
+              "un":"trainee",
+             "pwd":"trainee"
+              },
+              { 
+              "un":"traiee",
+             "pwd":"trainee"
+              }
+                            
+
+
+]
+}

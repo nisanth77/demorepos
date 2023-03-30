@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="crossbrowsertesting" parallel="tests" thread-count="3">
+  <test name="edge test">
+  <parameter name="browserName" value="edge"></parameter>
+  <parameter name="url" value="https://demo.actitime.com/login.do"></parameter>
+  <parameter name="userName" value="username"></parameter>
+  <parameter name="userNameValue" value="admin"></parameter>
+  <parameter name="passwordValue" value="manager"></parameter>
+  <parameter name="password" value="pwd"></parameter>
+  <parameter name="loginButton" value="loginButton"></parameter>
+  <parameter name="logout" value="logoutLink"></parameter>
+    <classes>
+      <class name="com.trello.qspiders.learngroupexecution.CrossBrowserTestingUsingActitime"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="firefox test">
+  <parameter name="browserName" value="firefox"></parameter>
+  <parameter name="url" value="https://demo.actitime.com/login.do"></parameter>
+  <parameter name="userName" value="username"></parameter>
+  <parameter name="userNameValue" value="admin"></parameter>
+  <parameter name="passwordValue" value="manager"></parameter>
+  <parameter name="password" value="pwd"></parameter>
+  <parameter name="loginButton" value="loginButton"></parameter>
+  <parameter name="logout" value="logoutLink"></parameter>
+    <classes>
+      <class name="com.trello.qspiders.learngroupexecution.CrossBrowserTestingUsingActitime"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="chrome test">
+  <parameter name="browserName" value="chrome"></parameter>
+  <parameter name="url" value="https://demo.actitime.com/login.do"></parameter>
+  <parameter name="userName" value="username"></parameter>
+  <parameter name="userNameValue" value="admin"></parameter>
+  <parameter name="passwordValue" value="manager"></parameter>
+  <parameter name="password" value="pwd"></parameter>
+  <parameter name="loginButton" value="loginButton"></parameter>
+  <parameter name="logout" value="logoutLink"></parameter>
+    <classes>
+      <class name="com.trello.qspiders.learngroupexecution.CrossBrowserTestingUsingActitime"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
